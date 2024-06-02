@@ -13,3 +13,7 @@ This is a sample ASP.NET Core MVC project that demonstrates how to use a custom 
 1. Clone the repository
 2. Navigate to the project directory
 3. Run the project using the following command:
+  - cd SampleProject
+  - dotnet restore
+  - dotnet build
+  - dotnet run
