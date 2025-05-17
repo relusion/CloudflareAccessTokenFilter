@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews(options =>
 {
-    // register the action fitter only if we are not in development environment
+    // register the action filter only if we are not in development environment
     if (!builder.Environment.IsDevelopment())
     {
         options.Filters.Add<OriginCheckFilter>();
